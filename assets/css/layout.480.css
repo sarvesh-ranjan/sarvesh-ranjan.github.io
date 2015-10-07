@@ -15,8 +15,10 @@
 }
 
 #header-logo {
-	width: 90%;
+	width: 20%;
 	padding: 5%;
+	margin-left: 0;
+	text-align: left;
 }
 
 #footer {
