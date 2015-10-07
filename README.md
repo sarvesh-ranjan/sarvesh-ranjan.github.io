@@ -1,6 +1,6 @@
 AboutMe
 =======
-AboutMe is Sarvesh Ranjan's personal project site. It's main contents are about, resume, work and contact.
+sarvesh-ranjan.github.io is Sarvesh Ranjan's personal project site. It's main contents are about, resume, work and contact.
 For main CSS, Twitter Bootstrap(http://twitter.github.io/bootstrap/) is used. (Bootstrap is real Awesome and Cool!)
 Most of HTML file and custom CSS and js is powered by Sanghyuk Chun except CSS from Bootstrap.
 This project is optimized for Chrome browser. You can access this project using Internet Explorer, but I cannot sure it perfectly works.

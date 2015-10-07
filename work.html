@@ -61,40 +61,82 @@
 				<!-- [s] Current Reseaches -->
 				<h3 class="content-title">Current Reseaches</h3>
 				<ul class="text-justify">
-					<li>Scalable Iterative Algorithm for Subspace clustering: Design more robust subspace clustering model and propose fast and efficient algorithm for solving the problem</li>
+					<li>Multi Dimensional Anomaly Detection and Applications in Image Processing</li>
 				</ul>
 				<h4 class="content-sub-title">Previous Researches</h4>
 				<ul class="text-justify">
-					<li>ECG Authentication: Design classification system for Biometric authentication</li>
+					<li>Cisco Internal Webex Social Recommendation System (Webex++)</li>
 				</ul>
 				<!-- [e] Current Reseaches -->
 				<hr>
 
-				<!-- [s] Projects in IUM-SOCIUS -->
-				<h3 class="content-title">Projectes in IUM-SOCIUS <small>(2012.07 - 2013.01)</small></h3>
-				<h4 class="content-sub-title">Ium Batch</h4>
-				<ul class="text-justify">
-					<li>Internal Project (unable to open system structure or source code to the public)</li>
-					<li>Made with JAVA (using <a href="http://static.springsource.org/spring-batch/">Spring Batch</a>) and <a href="http://www.mysql.com/">MySQL</a></li>
-					<li>Redesigned to improve stability program and reduce code redundancy</li>
-					<li>Original batch system has failure problems include database connection problems and resource problem. I redesign existence system to reduce those problems.</li>
-					<li>Before redesign, ium batch has no relationship with main product. Because of this lots of code redundancy was occurred and lots of cost to maintenance was required. I redesign whole batch system has relationship with ium core which is main library of every ium product.</li>
-				</ul>
-				<h4 class="content-sub-title">Ium Statistics System</h4>
-				<ul class="text-justify">
-					<li>Internal Project (unable to open system structure or source code to the public)</li>
-					<li>Made with Python (using <a href="http://flask.pocoo.org/">Flask</a>) and <a href="http://www.mongodb.org/">MongoDB</a></li>
-					<li>Before this system, there was statistics program written in JAVA using Play framework. However, this program was extremely slow and has high redundancy. It calculated whole statistics information every user access. I design new statistics system using python script and NoSQL (MongoDB) to reuse old calculated and stored data.</li>
-					<li>There are two reasons why I used NoSQL. First, for every 2 months, this system produce about 1GB statistics data. To reduce the cost of server, we use several cheap server machine to store it. RDB(Relational Database) system is not suitable for distributed storage system while NoSQL is. Second, statistics system should has affinity which means strict data schema which is for RDB is not suitable for this system.</li>
-					<li>New statistic program has two part: server-side and frontend-side. Server side part has script written by Python. Once in a day, scheduler (in this case I used Linux crontab) run scripts and scripts calculate the required statistics information and store them into mongoDB. Frontend-side part is web application using Flask. This application read the statistic data tuples from mongoDB and show it in chart format using hi-chart.</li>
-				</ul>
-				<h4 class="content-sub-title">IM'8</h4>
-				<ul class="text-justify">
-					<li>New main project of IUM-SOCIUS. It is primium online dating service. <a href="http://im8.net/">site</a></li>
-					<li>Made with Ruby (using <a href="http://rubyonrails.org/">Ruby on Rails</a>), <a href="http://www.redis.io/">Redis</a> and <a href="https://mariadb.org/">MariaDB</a></li>
-					<li>Took a role as one of main developers for front pages and admin service. It was my first team project.</li>
-				</ul>
-				<!-- [e] Projects in IUM-SOCIUS //-->
+				<!-- [s] Work Experience -->
+				<div class="resume-content-wrap">
+					<h3 class="content-title">WORK EXPERIENCE</h3>
+					<p class="pull-right">Aug 2014 ~ Jul 2015</p>
+					<p><strong>Cisco Systems, San Jose CA, </strong>Cisco International Internship Program</p>
+					<ul class="text-justify">
+						<li>Worked with OpenStack team under Office of Cloud, CVG for one year in San Jose. Worked on
+							projects in the fields of OpenStack, Machine Learning, NLP and contributed to upstream code of
+							open source projects like Apache Kafka & Storm. Currently an active contributor in Ceilometer and
+							Cinder projects in OpenStack. Worked on following projects:<li>
+							• Multi dimensional anomaly detection and disk failure prediction.<li>
+							• Read and write optimization in Ceph object storage system.<li>
+							• PlaceWise: A smart (multi-) cloud resource placement recommendation engine and service.<li>
+							• Cognitive: Machine learning as a service.<li>
+							• Authentication and security in Apache Kafka pub-sub system.<li>
+							• Multi node OpenStack cluster deployment and management.<li>
+							• Designing Elasticsearch, Kibana and Logstash based logs & metrics pipeline and performing policy
+							based cloud monitoring.<li>
+							Integral part of the team which created Software as a service Cisco product called Cisco Zeus.<li>
+							Participated in OpenStack summit in Vancouver as a speaker and presented work about Demystifying Logs in OpenStack Clouds.</li>
+					</ul>
+					<p class="pull-right">Aug 2014 ~ Jul 2015</p>
+					<p><strong>Cisco Systems, San Jose CA, </strong>Cisco International Internship Program</p>
+					<ul class="text-justify">
+						<li>Worked with OpenStack team under Office of Cloud, CVG for one year in San Jose. Worked on
+							projects in the fields of OpenStack, Machine Learning, NLP and contributed to upstream code of
+							open source projects like Apache Kafka & Storm. Currently an active contributor in Ceilometer and
+							Cinder projects in OpenStack. Worked on following projects:<br>
+								Multi dimensional anomaly detection and disk failure prediction.<li>
+								Read and write optimization in Ceph object storage system.<li>
+								PlaceWise: A smart (multi-) cloud resource placement recommendation engine and service.<li>
+								Cognitive: Machine learning as a service.<li>
+								Authentication and security in Apache Kafka pub-sub system.<li>
+								Multi node OpenStack cluster deployment and management.<li>
+								Designing Elasticsearch, Kibana and Logstash based logs & metrics pipeline and performing policy
+							based cloud monitoring.<li>
+							Integral part of the team which created Software as a service Cisco product called Cisco Zeus.<li>
+							Participated in OpenStack summit in Vancouver as a speaker and presented work about Demystifying Logs in OpenStack Clouds.</li>
+					</ul>
+					<p class="pull-right">Aug 2015 ~ Present</p>
+					<p><strong>Cisco Systems, San Jose CA, </strong>Engineering Consultant</p>
+					<ul class="text-justify">
+						<li>Working remotely with OpenStack team in Cisco, San Jose. Current project focusses on creating
+							advanced data science and monitoring services on top of Cisco Zeus. This project involves devising
+							methods for system health checks, monitoring, creating policy based alarms, and data backup
+							systems for failure prevention. This project also involves creating load balanced data storage
+							mechanism for multiple site data center scenarios and aims to perform locality based data replication
+							using erasure codes.</li>
+					</ul>
+					<p class="pull-right">May 2014 ~ Jul 2014</p>
+					<p><strong>Wipro Limited, Bangalore </strong>Reliable Flash Storage System with Erasure Codes</p>
+					<ul class="text-justify">
+						<li>This project's aim was to create Erasure codes and improve the performance of data replication and
+							storage methods used by Microsoft Azure. Used Reed-Solomon codes & erasures and decreased
+							the amount of replication needed to create a multi level, multi-tier block object storage system which
+							is highly scalable and reliable without increasing the cost of storing extra data.</li>
+					</ul>
+					<p class="pull-right">May 2013 ~ Jul 2013</p>
+					<p><strong>Impetus Infotech Pvt. Ltd., </strong>Design and Implementation of MapReduce Workflow Optimizer</p>
+					<ul class="text-justify">
+						<li>This project's aim was to devise an algorithm for scheduling hadoop jobs in MapReduce frameworks.
+							The algorithm focused on rescheduling hadoop jobs using code realignment and created DAGs to
+							rescheduled the SQL like queries. This algorithm was then implemented in the profiler of
+							Jumbune(TM), product of Impetus Technologies, Inc. This was later used to create task executor.</li>
+					</ul>
+
+				</div>
 				<hr>
 
 				<!-- [s] Github Works -->
