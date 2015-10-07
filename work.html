@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" href="favicon.png">
+
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/common.css">
+<link rel="stylesheet" type="text/css" media="only screen and (min-width : 768px) and (max-width: 939px)" href="assets/css/layout.768.css">
+<link rel="stylesheet" type="text/css" media="only screen and (min-width : 501px) and (max-width : 767px)" href="assets/css/layout.640.css">
+<link rel="stylesheet" type="text/css" media="only screen and (max-width : 500px)" href="assets/css/layout.480.css">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42711199-1', 'sanghyukchun.github.io');
+  ga('send', 'pageview');
+
+</script>
+
+<title>Work - SanghyukChun</title>
+
+</head>
+<body>
+<div id="wrap">
+	<!-- [s] Header -->
+	<div id="header">
+		<div id="header-logo"><a href="index.html">ABOUT ME</a></div>
+		<div class="navi-wrapper">
+			<ul class="inline">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="resume.html">RESUME</a></li>
+				<li><a href="#" class="active">WORK</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- [e] Header //-->
+
+
+	<div id="content">
+
+		<!-- [s] Main Content -->
+		<div id="content-inner-wrapper">
+
+			<!-- Page Title -->
+			<h1 class="page-title">WORK</h1>
+			
+			<!-- [s] Main Content -->
+			<div id="main-content-wrapper">
+
+				<!-- [s] Current Reseaches -->
+				<h3 class="content-title">Current Reseaches</h3>
+				<ul class="text-justify">
+					<li>Scalable Iterative Algorithm for Subspace clustering: Design more robust subspace clustering model and propose fast and efficient algorithm for solving the problem</li>
+				</ul>
+				<h4 class="content-sub-title">Previous Researches</h4>
+				<ul class="text-justify">
+					<li>ECG Authentication: Design classification system for Biometric authentication</li>
+				</ul>
+				<!-- [e] Current Reseaches -->
+				<hr>
+
+				<!-- [s] Projects in IUM-SOCIUS -->
+				<h3 class="content-title">Projectes in IUM-SOCIUS <small>(2012.07 - 2013.01)</small></h3>
+				<h4 class="content-sub-title">Ium Batch</h4>
+				<ul class="text-justify">
+					<li>Internal Project (unable to open system structure or source code to the public)</li>
+					<li>Made with JAVA (using <a href="http://static.springsource.org/spring-batch/">Spring Batch</a>) and <a href="http://www.mysql.com/">MySQL</a></li>
+					<li>Redesigned to improve stability program and reduce code redundancy</li>
+					<li>Original batch system has failure problems include database connection problems and resource problem. I redesign existence system to reduce those problems.</li>
+					<li>Before redesign, ium batch has no relationship with main product. Because of this lots of code redundancy was occurred and lots of cost to maintenance was required. I redesign whole batch system has relationship with ium core which is main library of every ium product.</li>
+				</ul>
+				<h4 class="content-sub-title">Ium Statistics System</h4>
+				<ul class="text-justify">
+					<li>Internal Project (unable to open system structure or source code to the public)</li>
+					<li>Made with Python (using <a href="http://flask.pocoo.org/">Flask</a>) and <a href="http://www.mongodb.org/">MongoDB</a></li>
+					<li>Before this system, there was statistics program written in JAVA using Play framework. However, this program was extremely slow and has high redundancy. It calculated whole statistics information every user access. I design new statistics system using python script and NoSQL (MongoDB) to reuse old calculated and stored data.</li>
+					<li>There are two reasons why I used NoSQL. First, for every 2 months, this system produce about 1GB statistics data. To reduce the cost of server, we use several cheap server machine to store it. RDB(Relational Database) system is not suitable for distributed storage system while NoSQL is. Second, statistics system should has affinity which means strict data schema which is for RDB is not suitable for this system.</li>
+					<li>New statistic program has two part: server-side and frontend-side. Server side part has script written by Python. Once in a day, scheduler (in this case I used Linux crontab) run scripts and scripts calculate the required statistics information and store them into mongoDB. Frontend-side part is web application using Flask. This application read the statistic data tuples from mongoDB and show it in chart format using hi-chart.</li>
+				</ul>
+				<h4 class="content-sub-title">IM'8</h4>
+				<ul class="text-justify">
+					<li>New main project of IUM-SOCIUS. It is primium online dating service. <a href="http://im8.net/">site</a></li>
+					<li>Made with Ruby (using <a href="http://rubyonrails.org/">Ruby on Rails</a>), <a href="http://www.redis.io/">Redis</a> and <a href="https://mariadb.org/">MariaDB</a></li>
+					<li>Took a role as one of main developers for front pages and admin service. It was my first team project.</li>
+				</ul>
+				<!-- [e] Projects in IUM-SOCIUS //-->
+				<hr>
+
+				<!-- [s] Github Works -->
+				<h3 class="content-title">GIT HUB</h3>
+				<ul>
+					<li><a href="https://github.com/SanghyukChun/aboutMe">aboutMe</a>: sanghyuk's about me website source code repository</li>
+					<li><a href="https://github.com/SanghyukChun/indexing">indexing</a>: sample indexing scheme code for flosis project in NDSL</li>
+				</ul>
+				<!-- [e] Github Works //-->
+
+			</div>
+			<!-- [e] Main Content //-->
+		</div>
+		<!-- [e] Main Content //-->
+
+		<!-- [s] Footer -->
+		<div id="footer">
+			<p class="pull-right">&copy; 2015 Sarvesh Ranjan</p>
+			<p>
+				<a href="http://www.in.linkedin.com/in/sarvranjan" class="social-linkedin"></a>
+				<a href="https://github.com/sarvesh-ranjan" class="social-github"></a>
+				<a href="mailto:sarvranjan@gmail.com" class="social-email"></a>
+			</p>
+		</div>
+		<!-- [e] Footer //-->
+	</div>
+</div>
+
+<!-- [s] Scripts -->
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+</script>
+<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>
+<script type="text/javascript" src="assets/js/respond.min.js"></script>
+<!-- [e] Scripts //-->
+</body>
+</html>

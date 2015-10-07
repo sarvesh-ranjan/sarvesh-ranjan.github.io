@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" href="favicon.png">
+
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/common.css">
+<link rel="stylesheet" type="text/css" media="only screen and (min-width : 768px) and (max-width: 939px)" href="assets/css/layout.768.css">
+<link rel="stylesheet" type="text/css" media="only screen and (min-width : 501px) and (max-width : 767px)" href="assets/css/layout.640.css">
+<link rel="stylesheet" type="text/css" media="only screen and (max-width : 500px)" href="assets/css/layout.480.css">
+
+<link rel="stylesheet" type="text/css" media="print" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="print" href="assets/css/common.css">
+
+<style type="text/css">
+	
+@media print { 
+	#header, #footer, .page-title { display: none !important; } 
+
+	#main-content-wrapper {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42711199-1', 'sanghyukchun.github.io');
+  ga('send', 'pageview');
+
+</script>
+
+<title>Resume - SanghyukChun</title>
+
+</head>
+<body>
+<div id="wrap">
+	<!-- [s] Header -->
+	<div id="header">
+		<div id="header-logo"><a href="index.html">ABOUT ME</a></div>
+		<div class="navi-wrapper">
+			<ul class="inline">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="#" class="active">RESUME</a></li>
+				<li><a href="work.html">WORK</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- [e] Header //-->
+
+
+	<div id="content">
+
+		<!-- [s] Main Content -->
+		<div id="content-inner-wrapper">
+
+			<!-- Page Title -->
+			<h1 class="page-title">RESUME</h1>
+
+			<!-- [s] Main Content -->
+			<div id="main-content-wrapper">
+				
+				<!-- [s] Resume Title -->
+				<h3 class="content-title text-center">SangHyuk Chun</h1>
+				<p class="text-center">ITC Building (N1) #917, KAIST, 291 Daehak-ro,<br>Yuseong-gu, Daejeon 305-701, Republic of Korea<br><a href="mailto:sanghyuk.chun@kaist.ac.kr">sanghyuk.chun@kaist.ac.kr</a></p>
+				<!-- [e] Resume Title //-->
+				<hr>
+
+				<!-- [s] Education -->
+				<div class="resume-content-wrap">
+					<h3 class="content-title">EDUCATION</h3>
+					<p>Master Candidate of Electrical Engineering (Expected Graduation in Feb. 2016), <br>
+						<strong>Korea Advanced Institute of Science and Technology (KAIST), </strong> Daejeon, Korea<br>
+						Main research interest: Machine Learning and Data Mining<br>
+						Advisor: Jinwoo Shin</p>
+					<p>Bachelor of Electrical Engineering and Management Science (2014), <br>
+						<strong>Korea Advanced Institute of Science and Technology (KAIST), </strong> Daejeon, Korea</p>
+				</div>
+				<!-- [e] Education //-->
+
+				<!-- [s] Research -->
+				<div class="resume-content-wrap">
+					<h3 class="content-title">Research</h3>
+					<p><strong>Scalable Iterative Algorithm for Subspace Clustering: Convergence and Initialization</strong></p>
+					<ul class="text-justify">
+						<li>Designed and developed a new iterative algorithm that solve incomplete robust PCA problem at each iteration to make more efficient algorithm for large-scale data and proved monotone convergence property of the proposed algorithm.</li>
+						<li>To solve local convergence issue, proposed a practical initialization method and now try to prove the theoretical result of proposed initialization method.</li>
+						<li>Reported experimental result on both synthetic and real world dataset (MNIST).</li>
+						<li>Submitted at NIPS 2015.</li>
+					</ul>
+
+					<p><strong>Affinity Propagation for Solving Robust Subspace Clustering</strong></p>
+					<ul class="text-justify">
+						<li>Designed an efficient Affinity Propagation algorithm for solving Robust Subspace Clustering based on result of previous research.</li>
+					</ul>
+
+					<p><strong>Scalable Network Monitoring System</strong></p>
+					<ul class="text-justify">
+						<li>Designed and developed high-performance and storage-efficient index structure for high-speed traffic monitoring and storing system. The system endures 40G traffic while most of real IDC endure less than 10G.</li>
+						<li>Designed and implemented a 2 level multi-thread index structure using the Pthread and the asynchronous event driven I/O. The hierarchy of the index structure includes bloomfilter and sorted array list.</li>
+						<li>Implemented event driven multi-thread query system using the Pthread.</li>
+					</ul>					
+				</div>
+				<!-- [e] Research //-->
+
+				<!-- [s] Project -->
+				<div class="resume-content-wrap">
+					<h3 class="content-title">PROJECT</h3>
+					<p class="pull-right">Nov. 2013 ~ Nov. 2015</p>
+					<p><strong>ECG Authentication / EMG Motion Detection, </strong>with SAMSUNG Electronics</p>
+					<ul class="text-justify">
+						<li>Designed an robust algorithm for ECG Authentication in noisy environment using Machine Learning techniques (low rank approximation) and analyze fundamental limitation of ECG authentication system.</li>
+						<li>Now Participates in designing and developing robust ECG Authentication algorithm for across session and EMG motion detection algorithm in noisy environment based on Deep Learning techniques.</li>
+						<li>Main contribution: design robust time series data classification algorithm</li>
+					</ul>
+				</div>
+				<!-- [e] Project //-->
+
+				<!-- [s] Work Experience -->
+				<div class="resume-content-wrap">
+					<h3 class="content-title">WORK EXPERIENCE</h3>
+					<p class="pull-right">June 2012 ~ January 2013</p>
+					<p><strong>IUM-SOCIUS (IT Start-up Company), </strong>Development Internship (Seoul)</p>
+					<ul class="text-justify">
+						<li>Designed and developed internal statistic program for generating automatic daily statistic report using Python Flask and MongoDB. 
+							Overall required time dramatically decreased to 30 seconds from 3 hours.</li>
+						<li>Sustained and developed additional specifications for internal system batch, admin program and advertisement/event pages for marketing
+							using JAVA Spring Batch and Spring.</li>
+						<li>Participated in new agile development process for new premium service using Ruby on Rails.</li>
+						<li>Designed and developed new internal API test page and internal batch admin page using JAVA Spring
+							to remove dependency to external libraries.</li>
+					</ul>
+				</div>
+				<!-- [e] Work Experience //-->
+				
+				<!-- [s] Skills and Other Information -->
+				<div class="resume-content-wrap">
+					<h3 class="content-title">OTHERS</h3>
+					<dl class="dl-horizontal">
+						<dt>Activities</dt><dd>Senior Member of Management Consulting Study Club (MSK)</dd>
+											<dd>Co-Founder and Vice President, Investment Strategy Study Club (K-SIT)</dd>
+						<dt>Technical Skills</dt><dd>Python, MATLAB, Ruby, JAVA, C/C++, HTML/CSS, Android, etc.</dd>
+						<dt>Languages</dt><dd>Native in Korean, Fluent in English and Beginner in Japanese</dd>
+						<dt>Useful Links</dt><dd>Blog: <a href="sanghyukchun.github.io">sanghyukchun.github.io</a></dd>
+											<dd>Github: <a href="https://github.com/sanghyukchun">https://github.com/sanghyukchun</a></dd>
+					</dl>
+				</div>
+				<!-- [e] Skills and Other Information //-->
+			</div>
+			<!-- [e] Main Content //-->
+		</div>
+		<!-- [e] Main Content //-->
+
+
+		<!-- [s] Footer -->
+		<div id="footer">
+			<p class="pull-right">&copy; 2015 Sarvesh Ranjan</p>
+			<p>
+				<a href="http://www.in.linkedin.com/in/sarvranjan" class="social-linkedin"></a>
+				<a href="https://github.com/sarvesh-ranjan" class="social-github"></a>
+				<a href="mailto:sarvranjan@gmail.com" class="social-email"></a>
+			</p>
+		</div>
+		<!-- [e] Footer //-->
+	</div>
+</div>
+
+<!-- [s] Scripts -->
+<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>
+<script type="text/javascript" src="assets/js/respond.min.js"></script>
+<!-- [e] Scripts //-->
+</body>
+</html>
