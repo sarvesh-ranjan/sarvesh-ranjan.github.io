@@ -1,0 +1,82 @@
+#wrap {
+	width: 100%;
+	margin:0 auto;
+	background-color: #ffffff;
+}
+
+#content {
+	margin: 6% auto;
+	width: 92%;
+}
+
+#header {
+	width: 100%;
+	margin:0px auto;
+}
+
+#header-logo {
+	width: 90%;
+	padding: 5%;
+}
+
+#footer {
+	width: 100%;
+	margin: 0 auto;
+	padding: 60px 0;
+	font-size: 0.9em;
+}
+
+.front-image-wrapper {
+	display: none;
+}
+#content-inner-wrapper {
+	margin: 0 auto;
+}
+
+#main-content-wrapper {
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.navi-wrapper a {
+  padding: 5px;
+}
+
+.form-horizontal .control-label {
+  width: 80px;
+  text-align: left;
+}
+
+.form-horizontal .controls {
+  margin-left: 0;
+}
+
+.form-horizontal .form-actions {
+  padding-left: 0;
+}
+
+.input-xlarge {
+  width: 100%;
+}
+
+.dl-horizontal dt {
+  float: none;
+  width: 100%;
+  overflow: none;
+  clear: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dl-horizontal dd {
+  margin-left: 0;
+}
+
+#calendar_frame {
+	height: 350px;
+}
+
+.pull-right {
+  float: none;
+}
