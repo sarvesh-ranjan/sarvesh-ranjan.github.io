@@ -1,10 +1,10 @@
 AboutMe
 =======
-AboutMe is Sanghyuk Chun's personal project site. It's main contents are about, resume, work and contact.
+AboutMe is Sarvesh Ranjan's personal project site. It's main contents are about, resume, work and contact.
 For main CSS, Twitter Bootstrap(http://twitter.github.io/bootstrap/) is used. (Bootstrap is real Awesome and Cool!)
 Most of HTML file and custom CSS and js is powered by Sanghyuk Chun except CSS from Bootstrap.
 This project is optimized for Chrome browser. You can access this project using Internet Explorer, but I cannot sure it perfectly works.
-Responsible design for tablet PC, Smart Phone is also available. I tested this page with my IPad, Galaxy Note and some other mobile devices such as Vega Racer, Galaxy S3 and IPhone 4.
+Responsible design for tablet PC, Smart Phone is also available. I tested this page with my IPad, Sony Xperia Z2 and some other mobile devices such as Vega Racer, Galaxy S3 and IPhone 4.
 
 You can use my code freely, but if you contact me before use this code or add my name as developer, it will make me happy.
 
