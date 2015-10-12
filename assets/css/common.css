@@ -1441,14 +1441,14 @@ input[type="button"].btn-block {
 }
 
 #header-logo {
-  margin:0px auto;
-  padding: 20px;
-  width: 350px;
+  margin: 0px auto;
+  padding: 10px;
+  width: 425px;
 
   font-family: "Lato";
   font-size: 2.8em;
   line-height: 1.7em;
-  letter-spacing: 9px;
+  letter-spacing: 15px;
   text-align: center;
   font-weight: 100;
   color: #454545;
