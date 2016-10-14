@@ -1,8 +1,6 @@
 AboutMe
 =======
 sarvesh-ranjan.github.io is Sarvesh Ranjan's personal project site. It's main contents are about, resume, work and contact.
-For main CSS, Twitter Bootstrap(http://twitter.github.io/bootstrap/) is used. (Bootstrap is real Awesome and Cool!)
-Most of HTML file and custom CSS and js is powered by Sanghyuk Chun except CSS from Bootstrap.
 This project is optimized for Chrome browser. You can access this project using Internet Explorer, but I cannot sure it perfectly works.
 Responsible design for tablet PC, Smart Phone is also available. I tested this page with my IPad, Sony Xperia Z2 and some other mobile devices such as Vega Racer, Galaxy S3 and IPhone 4.
 
