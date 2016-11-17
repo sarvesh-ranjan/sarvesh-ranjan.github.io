@@ -721,7 +721,7 @@ select:focus:invalid:focus {
 
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline {
-  margin-left: 10px;
+  margin-left: 100px;
 }
 
 .input-mini {
